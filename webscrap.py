@@ -19,7 +19,7 @@ soup = BeautifulSoup(r.content, 'html.parser')
 # print(soup.get_text())
 paras=soup.find_all("p")
 anchors=soup.find_all("a")
-title=soup.title
+# title=soup.title
 h4=soup.find_all("h4")
 # for i in h4:
 #     print(i.prettify())
